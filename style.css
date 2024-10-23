@@ -1,0 +1,268 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+nav{
+ 
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+  }
+  nav ul li {
+    margin: 0 30px;
+  }
+  nav ul li a {
+    font-weight: 200;
+    color: #adadad;
+    transition: 600ms;
+  }
+  nav ul li a:hover {
+    color: #090909;
+  }
+
+.apple{
+    margin-top: 0%;
+    width: 35px;
+    position: relative;
+}
+.list{
+    list-style: none;
+    display:flex;
+    
+   
+}
+.nav-link{
+    color: black;
+
+}
+.icon{
+   display: flex;
+}
+.offer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+} 
+
+
+
+#store{
+    font-size: 45px;
+    color: blueviolet;
+}
+#the{
+    font-size: 45px;
+    color: rgb(163, 160, 156);
+}
+.carousel {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-images img {
+    max-width: 20%;
+    display: flexbox; /* Hide all images by default */
+}
+
+.carousel-images img.active {
+    display: block; /* Show active image */
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.nav-dots {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.dot {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #717171;
+}
+.latest{
+    font-size: 45px;
+    color: rgb(139, 44, 227);
+}
+.fresh{
+    font-size: 40px;
+    color: rgb(221, 218, 216);
+}
+.carousel2 {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+}
+/* qucik links */
+
+#OrderStatus{
+    text-decoration:none ;
+    background-color: #ffffff;
+    color: rgba(4, 4, 4, 0.485);
+    padding: 15px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+
+
+}
+.content{
+    font-size: 10px;
+    text-align: justify;
+
+}
+
+/*--- footer ---*/
+footer {
+    width: 100%;
+    height: 500px;
+    background: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-main {
+    width: 1070px;
+  }
+  .footer-detail {
+    font-size: .7rem;
+    color: #95a5a6;
+    padding: 20px 0;
+    border-bottom: 1px solid #bdc3c7;
+  }
+  .footer-detail a {
+    color: #2c3e50;
+  }
+  .footer-detail a:hover {
+    text-decoration: underline;
+  }
+  .footer-welcome {
+    display: flex;
+    margin: 20px 0;
+    font-size: .8rem;
+    color: #34495e;
+  }
+  .footer-welcome i {
+    margin-right: 10px;
+  }
+  .footer-ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-ul ul {
+    list-style: none;
+  }
+  .footer-ul ul li {
+    margin: 7px 0;
+  }
+  .footer-ul ul li h4 {
+    color: #34495e;
+    font-size: .7rem;
+  }
+  .footer-ul ul li a {
+    color: #7f8c8d;
+    font-size: .7rem;
+  }
+  .footer-ul ul li a:hover {
+    text-decoration: underline; 
+  }
+  #mt {
+    padding-top: 30px;
+  }
+  .footer-contact {
+    border-bottom: 1px solid #bdc3c7;
+    padding: 12px 0;
+    margin: 10px 0;
+    color: #7f8c8d;
+    font-size: .7rem;
+  }
+  .footer-contact a {
+    color: #3498db;
+  }
+  .footer-contact a:hover {
+    text-decoration: underline;
+  }
+  .footer-copyright {
+    color: #7f8c8d;
+    font-size: .7rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-copyright ul {
+    display: flex;
+    list-style: none;
+    width: auto;
+  }
+  .footer-copyright ul li {
+    margin: 0 10px;
+  }
+  .footer-copyright ul li a {
+    color: #7f8c8d;
+  }
+  .footer-copyright ul li a:hover {
+    text-decoration: underline; 
+  }
+  .vr {
+    height: 15px;
+    width: 1px;
+    background: #bdc3c7;
+  }
+  .footer-lang {
+    display: flex;
+  }
+  .footer-lang p {
+    margin: 0 10px;
+  }
+  .circle {
+    width: 15px;
+    height: 15px;
+  }
+  .circle img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 50%;
+  }
